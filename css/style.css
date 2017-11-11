@@ -1,0 +1,65 @@
+.body {
+    margin: 0;
+
+}
+
+#main-shop {
+    position: relative;
+    overflow: hidden;
+    background-color: #98fb98;
+    width: 100%;
+    height: 100vh;
+}
+
+#main-shop .shop-item {
+    position: relative;
+    top: 33%;
+    height: 30%;
+    float: left;
+    width: 23%;
+    margin: 1%;
+    background-position: center;
+    background-size: cover;
+}
+
+#main-shop .mask {
+    height: 100%;
+    background-color: darkgreen;
+    position: relative;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#main-shop .mask:hover {
+    opacity: 0.6;
+}
+
+
+#main-shop .item-content {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    font-size: 80px;
+}
+
+
+#item1 {
+    background-image: url(../img/product-1.jpg)
+}
+
+#item2 {
+    background-image: url(../img/product-2.jpg)
+}
+
+#item3 {
+    background-image: url(../img/product-3.jpg)
+}
+
+#item4 {
+    background-image: url(../img/product-4.jpg)
+}
+
+/
