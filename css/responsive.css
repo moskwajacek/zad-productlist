@@ -1,30 +1,28 @@
 @media (max-width: 480px) {
 
     #main-shop {
-        position: relative;
-        overflow: hidden;
-        background-color: #98fb98;
-        width: 100%;
-        height: 100vh;
+        overflow: scroll;
     }
 
     #main-shop .shop-item {
-        left: 10%;
         width: 70%;
-        margin: 5%;
         height: 20%;
+        margin: 15%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         top: auto;
     }
 }
 
 @media (min-width: 481px) and (max-width: 968px) {
 
+    #main-shop {
+        overflow: scroll;
+    }
+
     #main-shop .shop-item {
-        overflow-y: scroll;
         width: 40%;
         height: 30%;
-        float: left;
-        position: relative;
         margin: 5%;
         margin-top: 10%;
         margin-bottom: 10%;
