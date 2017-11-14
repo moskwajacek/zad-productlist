@@ -23,16 +23,15 @@
 
 #main-shop .mask {
     height: 100%;
-    background-color: darkgreen;
+    background-color: rgba(255, 111, 0, 0.62);
     position: relative;
     opacity: 0;
     transition: all 0.3s;
 }
 
 #main-shop .mask:hover {
-    opacity: 0.6;
+    opacity: 1;
 }
-
 
 #main-shop .item-content {
     color: #fff;
@@ -43,6 +42,7 @@
     width: 100%;
     font-size: 70px;
 }
+
 
 #item1 {
     background-image: url(../img/product-1.jpg)
